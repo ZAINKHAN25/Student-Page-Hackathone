@@ -10,8 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index path="/login" element={<Login/>}/>
-        <Route path="/" element={<Home/>}/>
+        <Route index path="/" element={<Login/>}/>
+        <Route path="/home" element={<Home/>}/>
         {/* <Route path="markattendance" element={<Markattendance/>}/> */}
         <Route path="*" element={<NotFound/>}/>
       </Routes>

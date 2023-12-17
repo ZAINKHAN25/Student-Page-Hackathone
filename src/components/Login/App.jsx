@@ -19,7 +19,7 @@ function App() {
 
             if (restwo) {
                 localStorage.setItem('logintoken', JSON.stringify(restwo));
-                navigateTo('/');
+                navigateTo('/home');
             } else {
                 settxterr("Invalid error or Password");
                 setTimeout(() => {
